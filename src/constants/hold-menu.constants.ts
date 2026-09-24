@@ -1,0 +1,50 @@
+const HOLD_MENU_LAYOUT = {
+  MAX_TILES: 4,
+  MAX_TILE_SIZE: 104,
+  TILE_GAP: 8,
+  TILE_RADIUS: 18,
+  TRAY_INSET: 20,
+  TRAY_OFFSET: 14,
+  HOVER_SLOP_Y: 18,
+  ICON_SIZE: 24,
+  STACK_OFFSET: 4,
+  START_SCALE: 0.3,
+  START_ROTATION: -10,
+  ROTATION_STEP: 7,
+  HOVER_SCALE: 1.1,
+  TILE_BLUR_RADIUS: 12,
+  STACK_SCALE: 0.8,
+  DISMISS_SCALE: 0.9,
+  TRAIL_ARC: 30,
+  TRAIL_FADE: 0.35,
+  TRAIL_BLUR: 4.6,
+  BACKDROP_INTENSITY: 25,
+  BAND_FADE: 96,
+  SEAM_FADE: 36,
+  ICON_ROTATION: 45,
+  DISABLED_OPACITY: 0.4,
+} as const;
+
+const HOLD_MENU_GESTURE = {
+  HOLD_DURATION: 280,
+} as const;
+
+const HOLD_MENU_ANIMATION = {
+  OPEN_SPRING: { duration: 420, dampingRatio: 0.95 },
+  CLOSE_SPRING: { duration: 520, dampingRatio: 1 },
+  TILE_MOVE_SPRING: { duration: 460, dampingRatio: 0.92 },
+  TILE_LIFT_SPRING: { duration: 420, dampingRatio: 0.9 },
+  TILE_CLOSE_SPRING: { duration: 400, dampingRatio: 1 },
+  HOVER_SPRING: { duration: 240, dampingRatio: 0.9 },
+  SPREAD_DELAY: 40,
+  OPEN_STAGGER: 20,
+  COLLAPSE_DELAY: 70,
+  CLOSE_STAGGER: 16,
+  SETTLED: 0.001,
+} as const;
+const HOLD_MENU_BLUR_TINT = {
+  light: 'systemUltraThinMaterialLight',
+  dark: 'systemUltraThinMaterialDark',
+} as const;
+
+export { HOLD_MENU_ANIMATION, HOLD_MENU_BLUR_TINT, HOLD_MENU_GESTURE, HOLD_MENU_LAYOUT };

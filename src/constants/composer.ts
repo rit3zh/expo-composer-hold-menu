@@ -1,0 +1,17 @@
+export const COMPOSER_LAYOUT = {
+  HEIGHT: 48,
+  BORDER_WIDTH: 1,
+  PADDING: 7,
+  ACTION_SIZE: 32,
+  ACTION_HIT_SLOP: 6,
+  ICON_SIZE: 24,
+} as const;
+
+export const COMPOSER_SHELF = {
+  MAX_CARDS: 2,
+  CARD_SIZE: 112,
+  CARD_RADIUS: 18,
+  CARD_SPACING: 10,
+  EDGE_INSET: 9,
+  ROW_SPACING: 2,
+} as const;
