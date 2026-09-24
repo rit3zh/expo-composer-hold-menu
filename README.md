@@ -1,6 +1,6 @@
 # expo-composer-hold-menu
 
-**ChatGPT-style** chat composer with a press-and-hold photo menu for React Native.
+**ChatGPT-inspired** chat composer with a press-and-hold recent photo picker.
 
 https://github.com/user-attachments/assets/e43e9faa-4c09-4bb2-b7a8-b46b7f4a62e5
 
