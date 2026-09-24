@@ -2,6 +2,8 @@
 
 **ChatGPT-style** chat composer with a press-and-hold photo menu for React Native.
 
+https://github.com/user-attachments/assets/e43e9faa-4c09-4bb2-b7a8-b46b7f4a62e5
+
 ---
 
 ## ⚙️ Installation
@@ -64,10 +66,6 @@ export function Example() {
   );
 }
 ```
-
-## Preview
-
-<!-- add your recording here -->
 
 ---
 
